@@ -26,14 +26,19 @@ const anotherFunChallenge = (input) => {
 
 // Example # 2
 function compressBoxesTwice(boxes, boxes2) {
-    boxes.forEach(function(boxes) {
+    boxes.forEach(function (boxes) {
         console.log(boxes);
     })
-    boxes2.forEach(function(boxes) {
+    boxes2.forEach(function (boxes) {
         console.log(boxes)
-        
+
     });
 }
 
 /* Since there are 2 inputs boxes(1) & boxes2(2) and they are different
-    we can call boxes(a) & boxes2(b) so Big O will be O(a+b) */
+    we can call boxes(a) & boxes2(b) so Big O will be O(a+b)
+*/
+
+
+// Example 3
+// Given 2 arrays, create a function that let's a user know (true/false) whether these two arrays contain any common items 
