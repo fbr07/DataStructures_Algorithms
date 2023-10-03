@@ -6,7 +6,3 @@ class Solution(object):
                 nums[k] = nums[i]
                 k += 1
         return k
-        print(k)
-
-
-nums = [3, 2, 2, 3]
