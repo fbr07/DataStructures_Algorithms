@@ -2,7 +2,8 @@
 
 
 def insertionSort(arr):
-    for i in range(1, len(arr)):
+    n = len(arr)
+    for i in range(1, n):
         current_element = arr[i]
         left_j_checker = i - 1
         while left_j_checker >= 0 and current_element < arr[left_j_checker]:
